@@ -1,0 +1,13 @@
+package aFlowCharts;
+
+/*
+ * When ever we see a problem , be it a maths problem
+ * 1st thing we do is analyze the problem
+ * 2nd we think of a solution
+ * 3rd Pen down the solution
+ * 4th Write code
+ * 
+ */
+public class AFlowChartsDemo {
+
+}

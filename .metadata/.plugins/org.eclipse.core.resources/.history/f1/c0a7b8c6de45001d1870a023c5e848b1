@@ -24,7 +24,7 @@ package aFlowCharts;
 /*
  * Flow Chart Components:
  * 	     ----------
- * 		( START    ) - Terminator[STart and End]
+ * 		( START    ) - Terminator
  * 		-----------
  * 		--------------
  * 	   /			 /
@@ -46,22 +46,3 @@ package aFlowCharts;
 public class AFlowChartsDemo {
 
 }
-
-/*
- * Add Two Numbers - Flow Chart
- * 
- * Start
- * Read A,B
- * SUM=A+B
- * Output SUM
- * End
- */
-/*
- * Read Principal,Rate of Interest and Time , calculate Simple Interest
- * 
- * Start
- * Read principal,RateofInt,Time
- * SI = PTR/100
- * Output SI
- * End
- */

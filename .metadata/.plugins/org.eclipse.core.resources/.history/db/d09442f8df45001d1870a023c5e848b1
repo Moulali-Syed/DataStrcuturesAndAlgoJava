@@ -59,9 +59,4 @@ public class AFlowChartsDemo {
 /*
  * Read Principal,Rate of Interest and Time , calculate Simple Interest
  * 
- * Start
- * Read principal,RateofInt,Time
- * SI = PTR/100
- * Output SI
- * End
  */
