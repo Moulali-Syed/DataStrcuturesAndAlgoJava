@@ -1,0 +1,20 @@
+package aFlowCharts;
+
+import java.util.Scanner;
+
+public class KFibonacciNumsUptoN {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int n = s.nextInt();
+		int a = 0;
+		int b = 1;
+		System.out.print(a+" "+b+" ");
+		for(int i=1;i<=n;i++) {
+			
+			int c = a+b;
+			b = 0;
+			System.out.print(c+" ");
+		}
+	}
+}
