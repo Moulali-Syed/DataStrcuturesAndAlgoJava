@@ -1,0 +1,17 @@
+package cHowNumbersStored;
+
+/*
+ * BinaryNumber System
+ * is a base 2 , number system
+ * we have 0,1 and we call this as bits
+ * 
+ * Any base N , number system will have 0 t0 N-1 values
+ * i.e , N unique digits
+ * 
+ */
+public class ABinaryNumberSystem {
+
+	public static void main(String[] args) {
+		
+	}
+}

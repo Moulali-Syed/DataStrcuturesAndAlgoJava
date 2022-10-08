@@ -1,0 +1,12 @@
+package cHowNumbersStored;
+
+public class DTypeConversion {
+
+	public static void main(String[] args) {
+		char ch = 'a';
+		int i = ch;
+		System.out.println(i);//97
+		//its absoultely fine to store character value into int value
+		//because char is 2 bytes , int is 4 bytes
+	}
+}

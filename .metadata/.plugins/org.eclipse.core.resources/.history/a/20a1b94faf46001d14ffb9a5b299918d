@@ -1,0 +1,12 @@
+package cHowNumbersStored;
+
+public class BHowNegativeNumbersStored {
+	public static void main(String[] args) {
+
+	}
+}
+/*
+int i=10;
+
+it will be stored in memory as binary
+*/

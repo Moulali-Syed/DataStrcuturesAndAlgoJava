@@ -1,0 +1,12 @@
+package bGettingStartedWithJava;
+
+public class AJavaFeatures {
+
+}
+/*
+Java is platform Independent
+Java is Object Oriented
+MultiThreading
+Memory Management - Garbage collection
+
+*/

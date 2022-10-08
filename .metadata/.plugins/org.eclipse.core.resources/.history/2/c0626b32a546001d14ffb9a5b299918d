@@ -1,0 +1,20 @@
+package bGettingStartedWithJava;
+
+public class BHelloWorld {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		
+		
+		System.out.print("hello ");
+		System.out.print("\n");//is like pressing Enter Key
+		System.out.print("hi there");
+	}
+}
+/*
+print - will print in same line
+
+println - after printing goes to nes line
+
+\n - is new line character
+*/
