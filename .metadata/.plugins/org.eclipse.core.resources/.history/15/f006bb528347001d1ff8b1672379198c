@@ -1,0 +1,23 @@
+package ePatterns;
+
+import java.util.Scanner;
+
+/*
+Code : Character Pattern
+
+Print the following pattern for the given N number of rows.
+Pattern for N = 4
+A
+BC
+CDE
+DEFG
+ */
+public class LCharacterPatternPractice {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		
+		int n = s.nextInt();
+		
+	}
+}

@@ -1,0 +1,24 @@
+package ePatterns;
+
+public class APatternTheory {
+
+}
+/*
+
+when n=4
+
+****
+****
+****
+****
+
+When n=3
+
+***
+***
+***
+
+The first we have to figure out in given n, there are n rows
+Then figure out the number of columns each row has , above pattern has 4 columns
+
+*/
