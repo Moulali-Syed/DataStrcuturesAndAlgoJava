@@ -1,0 +1,18 @@
+package gOperatorsAndForloops;
+
+import java.util.Scanner;
+
+public class PReverseANumber {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int n = s.nextInt();
+
+		int rev = 1;
+		while(n>0) {
+			rev *= n%10;
+			n = n/10;
+		}
+		System.out.println(rev);
+	}
+}

@@ -1,0 +1,15 @@
+package hfunctionsAndScope;
+
+public class ACalculatingNcR {
+
+	public static int factorial(int n ) {
+		int prod = 1;
+		for(int i=1;i<=n;i++) {
+			prod *= i;
+		}
+		return prod;
+	}
+	public static void main(String[] args) {
+		factorial(5);
+	}
+}
