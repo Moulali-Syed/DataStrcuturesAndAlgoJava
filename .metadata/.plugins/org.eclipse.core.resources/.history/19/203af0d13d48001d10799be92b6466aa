@@ -1,0 +1,14 @@
+package gOperatorsAndForloops;
+
+public class FAssignmentOperator {
+
+	public static void main(String[] args) {
+		int a = 10;
+
+		a += 1;// same as a = a+1
+		// we have -= , *= ,/= %=
+
+		int b = 10;
+		b ^= 1;
+	}
+}

@@ -1,0 +1,10 @@
+package gOperatorsAndForloops;
+
+public class BShortCircuit {
+
+	public static void main(String[] args) {
+		
+		int a =60,b=80;
+		
+	}
+}

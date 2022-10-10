@@ -1,0 +1,30 @@
+package gOperatorsAndForloops;
+
+public class DBitwiseOperators {
+
+	public static void main(String[] args) {
+		//using bitwise operator, operations happen bit by bit
+		
+		int a = 10,b=2;
+		
+		//bitwise and
+		int c = a & b;
+		/*
+		 1010
+		 0010
+		 ====
+		 0010 ---->2
+		 */
+		System.out.println(c);
+		
+		int p = 10 , q = 2;
+		int r = p | q;
+		/*
+		 1010
+		 0010
+		 ====
+		 1010 ---->10
+		 */
+		System.out.println(r);
+	}
+}

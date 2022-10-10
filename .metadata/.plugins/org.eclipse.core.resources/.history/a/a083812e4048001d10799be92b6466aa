@@ -1,0 +1,18 @@
+package gOperatorsAndForloops;
+
+public class HForLoop {
+
+	public static void main(String[] args) {
+		//initialization
+		//condition
+		//increment or decrement[loop step]
+		
+		int n = 5;
+		int i = 1;//1.initialization
+		while(i<=n) { //2.condition
+			System.out.println(i);
+			i++;//3.increment or decrement
+		}
+		
+	}
+}

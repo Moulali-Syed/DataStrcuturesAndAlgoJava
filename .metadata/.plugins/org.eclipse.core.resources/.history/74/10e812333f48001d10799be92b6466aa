@@ -1,0 +1,8 @@
+package gOperatorsAndForloops;
+
+public class GPrecedenceAndAssociativity {
+
+	public static void main(String[] args) {
+		
+	}
+}

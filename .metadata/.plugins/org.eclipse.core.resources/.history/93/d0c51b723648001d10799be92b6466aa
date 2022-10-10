@@ -1,0 +1,17 @@
+package gOperatorsAndForloops;
+
+public class AIncrementDecrementOperators {
+
+	public static void main(String[] args) {
+		int a  = 60;
+		
+		//we have post and pre increment, decrement operators
+		
+		System.out.println(a++);//60
+		System.out.println(a);//61
+		int b = 60;
+		System.out.println(++b);//61
+		
+		
+	}
+}

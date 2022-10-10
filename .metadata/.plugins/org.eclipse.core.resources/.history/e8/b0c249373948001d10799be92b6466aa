@@ -1,0 +1,9 @@
+package gOperatorsAndForloops;
+
+public class DBitwiseOperators {
+
+	public static void main(String[] args) {
+		//using bitwise operator, operations happen bit by bit
+		
+	}
+}

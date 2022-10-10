@@ -1,0 +1,18 @@
+package gOperatorsAndForloops;
+
+public class EBitWiseOperatorsCont {
+
+	public static void main(String[] args) {
+		
+		int a = 10;
+		//bitwise left shift
+		System.out.println(a<<1);
+		/*
+		 a  			1010
+		 leftshift by1 
+		 			   10100 = 20
+		 			   that is move one bit forward
+		 */
+		
+	}
+}
