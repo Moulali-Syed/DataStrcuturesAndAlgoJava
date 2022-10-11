@@ -1,0 +1,13 @@
+package iArrays;
+
+public class AWhatAreArrays {
+
+	public static void main(String[] args) {
+		int[] a = new int[5];
+		char[] ch = new char[4];
+		boolean bool[] = new boolean[5];
+	}
+}
+/*
+
+*/

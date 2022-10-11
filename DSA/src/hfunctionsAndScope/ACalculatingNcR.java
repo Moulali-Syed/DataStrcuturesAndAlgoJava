@@ -11,6 +11,10 @@ public class ACalculatingNcR {
 		}
 		return fact;
 	}
+	
+	public static int nCr(int n,int r) {
+		return factorial(n)/((factorial(r))*(factorial(n-r)));
+	}
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
@@ -19,7 +23,7 @@ public class ACalculatingNcR {
 		 NcR = n!/(r!*(n-r)!)
 		 */
 		
-		int nCr = factorial(n)/(factorial(r)*(factorial(n-r)));
-		System.out.println(nCr);
+		int ncr = nCr(n,r);
+		System.out.println(ncr);
 	}
 }
