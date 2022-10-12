@@ -1,0 +1,20 @@
+package jSearchingSorting;
+
+public class AALinearSearchInArray {
+
+	public static void searchArr(int[] arr,int ele) {
+		
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i]==ele) {
+				System.out.println(arr[i]+" is at index position  "+i);
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		int[] ar = {1,2,3,4,5,6,7,9,12,87,34,21};
+		int se = 12;
+		searchArr(ar,se);
+	}
+}

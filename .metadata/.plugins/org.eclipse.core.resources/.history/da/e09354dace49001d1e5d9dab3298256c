@@ -1,0 +1,9 @@
+package jSearchingSorting;
+
+/*
+Binary Search is better than Linear Search
+*** The condition for binary search is Array must be sorted *****
+ */
+public class ABinarySearch {
+
+}

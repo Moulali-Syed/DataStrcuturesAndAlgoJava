@@ -1,0 +1,18 @@
+package jSearchingSorting;
+/*
+Bubble Sort:
+
+In bubble sort , we compare adjacent elements
+say we have an array  6, 9, 4 ,8, 3,1
+
+Round -1 [We achieve here is the largest element is moved to its position]
+we compare  - 6 and 9 ---> 6,9,4,8,3,1
+Then compare - 9 and 4 ---> 6, 4,9,8,3,1
+then compare - 9 and 8 ---> 6, 4, 8,9,3,1
+then compare - 9 and 3 -----> 6, 4, 8,3,9,1
+then compare - 9 and 1 ------> 6, 4, 8,3,1,9
+ */
+public class CBubbleSort {
+
+	
+}

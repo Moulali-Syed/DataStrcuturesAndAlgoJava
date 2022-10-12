@@ -1,0 +1,13 @@
+package jSearchingSorting;
+/*
+Bubble Sort:
+
+In bubble sort , we compare adjacent elements
+say we have an array  6, 9, 4 ,8, 3,1
+
+we compare  - 6 and 9 ---> 6,9,4,8,3,1
+ */
+public class CBubbleSort {
+
+	
+}

@@ -1,0 +1,8 @@
+package jSearchingSorting;
+/*
+Say we have an array - 7 2 9 6 5 4
+
+ */
+public class BSelectionSort {
+
+}

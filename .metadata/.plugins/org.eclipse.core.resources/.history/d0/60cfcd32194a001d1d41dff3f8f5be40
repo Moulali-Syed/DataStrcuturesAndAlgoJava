@@ -1,0 +1,7 @@
+package jSearchingSorting;
+
+//Merge two sorted arrays - the merged array should also be sorted
+public class EMergeTwoSortedArrays {
+
+	
+}
