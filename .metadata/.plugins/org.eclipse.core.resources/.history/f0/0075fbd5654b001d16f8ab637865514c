@@ -1,0 +1,14 @@
+package kStrings;
+/*
+String in java is immutable
+
+Once u created a string its not allowed to change the string
+we cannot add or remove characters , or not even substitute characters
+
+This is because of memory optimisation , in stringpool
+
+Say suppose if we have string as mutable ,
+ */
+public class JStringImmutability {
+
+}

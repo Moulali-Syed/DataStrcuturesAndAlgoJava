@@ -1,0 +1,21 @@
+package kStrings;
+
+public class IHowStringsStored {
+
+	public static void main(String[] args) {
+		
+	}
+}
+/*
+In java we have stack memory and heap memory
+
+Whatever local variables we are creating they go to stack, the function calls
+we are making will also be in call stack
+
+But in case of a non primitive
+Suppose consider an array
+int[] arr = new int[10];
+
+this arr is not the actual array , actual array is created some where
+
+*/

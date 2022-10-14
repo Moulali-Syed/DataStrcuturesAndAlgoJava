@@ -1,0 +1,11 @@
+package kStrings;
+
+public class CStringSubStringFunctions {
+
+	public static void main(String[] args) {
+		String str = "Coding";
+		System.out.println(str.substring(2));//we can pass start index ,here it is 2
+		//it will print till end
+		//ding
+	}
+}

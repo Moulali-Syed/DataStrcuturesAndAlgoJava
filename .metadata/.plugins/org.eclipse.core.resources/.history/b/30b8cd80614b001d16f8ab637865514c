@@ -1,0 +1,8 @@
+package kStrings;
+
+public class IHowStringsStored {
+
+	public static void main(String[] args) {
+		
+	}
+}

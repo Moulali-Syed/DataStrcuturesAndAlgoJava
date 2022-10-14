@@ -1,0 +1,12 @@
+package kStrings;
+
+public class AStringIntro {
+
+}
+/*
+to store a collection of characters
+
+we can store in a char array or in String
+
+
+*/
