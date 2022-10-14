@@ -1,9 +1,0 @@
-package aFlowCharts;
-
-/*
- * If it is raining outside  i will carry an umbrella
- * if not raining will not carry an umbrella
- */
-public class CDecisonMakingFlowChart {
-
-}
