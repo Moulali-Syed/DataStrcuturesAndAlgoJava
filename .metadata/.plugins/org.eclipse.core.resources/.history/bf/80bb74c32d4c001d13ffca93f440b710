@@ -1,0 +1,12 @@
+package lTwoDimensionArrays;
+
+public class CHow2DArraysStored {
+
+	public static void main(String[] args) {
+		
+	}
+}
+/*
+All rows are seperate 1 dimension arrays incase of 2d arrays
+
+*/

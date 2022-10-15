@@ -1,0 +1,12 @@
+package lTwoDimensionArrays;
+
+public class ATwoDimensionArray {
+
+	public static void main(String[] args) {
+		//2d array
+		
+		int[][] arr = new int[3][4];
+		//here 3 - represents rows , 4 - represents columns
+		
+	}
+}
