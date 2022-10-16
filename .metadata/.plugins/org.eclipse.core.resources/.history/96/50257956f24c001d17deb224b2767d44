@@ -1,0 +1,19 @@
+package mtimeComplexityAnalysis;
+
+public class CIterativeNonLinearBigO {
+
+}
+/*
+Bubble sort - BigO(n^2)
+
+say i have some code
+	i=0
+	while(i<=n)
+		a = some operation that takes n times
+		say i have bubble sort - which takes o(n^2)
+		i=i+1
+		
+sigma i=1 to n ---ki+ki^2 - for each itertaion we are doing , so for n iterations it will 
+be O(n^3)
+		
+*/

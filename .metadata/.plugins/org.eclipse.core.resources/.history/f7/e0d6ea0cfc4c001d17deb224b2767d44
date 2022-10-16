@@ -1,0 +1,6 @@
+package mtimeComplexityAnalysis;
+
+//sum of elements on left equal to sum of elements on right
+public class EEquilibriumIndex {
+
+}
