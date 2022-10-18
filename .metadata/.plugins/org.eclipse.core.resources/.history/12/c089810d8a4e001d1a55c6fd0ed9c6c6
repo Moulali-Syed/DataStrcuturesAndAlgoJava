@@ -1,0 +1,9 @@
+package qOOPS1;
+
+public class HFinalKeyword {
+
+//	I want to give value only once and not want to change it any further - then 
+//	mark it final
+	
+	
+}

@@ -1,0 +1,13 @@
+package nRecursion;
+
+public class BSumOfNaturalNumbers {
+
+	public static int sumOfNums(int n) {
+		
+		if(n==1) {
+			return 1;
+		}
+		return n+(sumOfNums(n-1));
+		
+	}
+}

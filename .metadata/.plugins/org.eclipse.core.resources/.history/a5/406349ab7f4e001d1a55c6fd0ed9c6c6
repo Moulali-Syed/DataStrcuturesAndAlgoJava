@@ -1,0 +1,9 @@
+package qOOPS1;
+/*
+We identify the important entities
+
+like user, batch,course,problem ,lectures,video
+ */
+public class AoopIntro {
+
+}

@@ -1,0 +1,32 @@
+package qOOPS1;
+
+public class KFractionExample {
+
+	private int numerator;
+	private int denominator;
+
+	public KFractionExample(int numerator, int denominator) {
+		this.numerator = numerator;
+		this.denominator = denominator;
+	}
+
+	public int getnumerator() {
+		return this.numerator;
+	}
+
+	public void setNumerator(int numerator) {
+		this.numerator = numerator;
+	}
+
+	public int getDenominator() {
+		return this.denominator;
+	}
+	
+	public void setDenominator(int denominator) {
+		this.denominator = denominator;
+	}
+
+	public void print() {
+		System.out.println(this.numerator+"/"+ this.denominator);
+	}
+}

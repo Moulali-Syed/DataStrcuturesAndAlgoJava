@@ -1,0 +1,16 @@
+package qOOPS1;
+
+public class FStudentUse {
+
+	public static void main(String[] args) {
+		FStudent st1 = new FStudent("Apple");
+		st1.print();
+		
+		FStudent st2 = new FStudent(10,"Mango");
+		st2.print();
+		
+		
+	}
+	
+	
+}

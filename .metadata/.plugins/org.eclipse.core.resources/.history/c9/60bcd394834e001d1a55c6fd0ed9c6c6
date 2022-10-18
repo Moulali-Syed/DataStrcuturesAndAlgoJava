@@ -1,0 +1,11 @@
+package qOOPS1;
+
+public class DStudent {
+
+	private int rollNumber;
+	public String name;
+	
+	public int getRollNumber() {
+		return rollNumber;
+	}
+}

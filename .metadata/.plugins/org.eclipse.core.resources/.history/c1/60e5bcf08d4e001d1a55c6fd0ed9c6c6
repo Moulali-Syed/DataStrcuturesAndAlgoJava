@@ -1,0 +1,14 @@
+package qOOPS1;
+
+public class JStaticFunctions {
+
+	static int numStudents;
+	int rollNumber;
+	
+	public static int getNumStudents() {
+//		System.out.println(rollNumber);- we cannot access a non static variable inside
+//		a static method
+		
+		return numStudents;
+	}
+}

@@ -1,0 +1,11 @@
+package qOOPS1;
+
+public class FStudentUse {
+
+	public static void main(String[] args) {
+		FStudent st1 = new FStudent("Apple");
+		st1.print();
+	}
+	
+	
+}
