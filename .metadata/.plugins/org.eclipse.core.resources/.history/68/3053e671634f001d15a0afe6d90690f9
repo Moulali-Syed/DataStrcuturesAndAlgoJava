@@ -1,0 +1,279 @@
+package qOOPS2;
+
+public class GPolymorphism {
+	/*
+	 We have runtime polymorphism and compile time polymorphism
+	 
+	 
+package java4;
+
+//video 88 to 104
+public class AAOOPS_Concepts{}
+/*
+OOP is a programming paradigm /methodology
+OOPs main concepts in java
+Class
+Object and methods
+Encapsulation
+Abstraction
+Polymorphism
+Inheritance
+______________________________________________________________________________________________________________________________
+Smalltalk is purely object oriented programming
+______________________________________________________________________________________________________________________________
+Class:
+Animal - dog , cat are objects
+Birds - peacock ,sparrow
+______________________________________________________________________________________________________________________________
+method is any task that we perform
+animal eat
+birds fly
+______________________________________________________________________________________________________________________________
+class is a collection of objects
+Class is not a real world entity, it is just a blueprint
+Class doesnot occupy memory
+syntax:
+accessmodifier ClassName{
+	//we can have methods , constructors, fields , blocks , nested class
+}
+by default accessmodifier is default if not specified'
+______________________________________________________________________________________________________________________________
+method:
+a set of codes which perform particular task
+advantages:
+code reusability and code reuse
+syntax:
+access-modifier returnType methodName(listOfParameters){
+}
+by default access-modifer is default
+______________________________________________________________________________________________________________________________
+Object:
+Object is an instance of class
+Object is real world entity
+Object occupies memory
+Object consists of :
+Idenity: name
+state/attribute: color,breed , age
+behaviour: methods [eat,run]
+how to create an object
+we can create using
+new keyword
+newInstance() method
+clone method
+deserialization
+factory methods
+ClassName objName = new ClassName()
+//calling behaviour of method
+objName.methodName();
+objName.color;
+package oop;
+class Animal {
+	public void eat() {
+		System.out.println("Eating");
+	}
+	public void run() {
+		System.out.println("Running");
+	}
+	public static void main(String[] args) {
+		Animal dog = new Animal();
+		dog.eat();
+		dog.run();
+		Birds sparrow = new Birds();
+		sparrow.fly();
+	}
+}
+class Birds{
+	public void fly() {
+		System.out.println("flying");
+	}
+}
+______________________________________________________________________________________________________________________________
+Initializing object:
+By reference variable
+Animal dog = new Animal();
+By method
+package oop;
+public class InitializeObject {
+	String color;
+	int age;
+	public void initObj(String c, int a) {
+		color = c;
+		age = a;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		InitializeObject obj1 = new InitializeObject();
+		obj1.initObj("Apple", 1);
+	}
+}
+using constructor:
+_______________________________________________________________________________________________________________________________________________________________________
+Constructor:
+ is similar to method has same name as className
+it doesnot have any return type
+only modifiers that can be used with constructor public , private , protected , default
+it executes automatically when object is created
+constructor is used for initializing an object
+TYpes of constructor
+default constrcutor: created by compiler
+NoArgumentConstructor:
+class Test{
+	Test(){
+	}
+}
+parameterized constructor:
+package oop;
+public class Employee {
+	String name;
+	int empid;
+	public Employee(String name, int empid) {
+		this.name = name;
+		this.empid = empid;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee emp1 = new Employee("apple", 101);
+		Employee emp2 = new Employee("Mango", 102);
+		Test t = new Test();
+	}
+}
+_____________________________________________________________________________________________________________________________________________
+Types of inheritance:
+inheriting properties of parent class to child class
+package oop;
+class Animal1{
+	public void eat() {
+		System.out.println("Eating");
+	}
+}
+class Dog extends Animal1{
+	public static void main(String[] args) {
+		Dog d1 = new Dog();
+		d1.eat();
+	}
+}
+//Dog is a animal
+//inheritance - IS-A relationship
+main advantage - code reusability
+we can achieve method overriding [polymorphism] using inheritance
+disadvantage : tightly coupled , if we chnage in one class , it will chnage in all other classes
+Types of inheritance:
+1.Single Inheritance
+one class properties inherited from other class
+A -> B
+2.Multi level inheritance
+A-> B -> C
+3.Heirarchical inheritance
+				A
+             /	   \
+            B       C
+4.Multiple inheritance : not present in java because of ambiguity
+			A    B
+	         \   /
+                   C
+5.Hybrid inheritance : not there in java , diamond problem
+			A
+	      /   \
+	     B     C
+	     \     /
+			D
+java only supports single , multilevel , heirarchical inheritance only
+SingleInheritance:
+package oop;
+ class A {
+public void show() {
+	System.out.println("Hello");
+}
+}
+ class B extends A{
+	 public void hi() {
+		 System.out.println("hi");
+	 }
+	 public static void main(String[] args) {
+		 B obj = new B();
+		 obj.show();
+		 obj.hi();
+		 //as we are referncing the class A we cant call methods that are only from class B
+		 A obj1 = new B();
+		 obj1.show();
+//		 obj1.hi();
+	 }
+ }
+Multilevel Inheritance:
+package oop;
+class A{
+	public void show() {
+		System.out.println("hellp");
+	}
+}
+class B  extends A{
+	public void hello() {
+		System.out.println("hello");
+	}
+}
+class C extends B{
+	public void hi() {
+		System.out.println("hi");
+	}
+	public static void main(String[] args) {
+		C obj = new C();
+		obj.show();
+		obj.hello();
+		obj.hi();
+	}
+}
+private members , methods and constructor will not be inherited
+Object is parent class of all classes
+_______________________________________________________________________________________________________________________________________________________________________Types of relationships:
+Inheritance -  [IS-A ]
+Association - HAS-A , has 2 forms Aggregation and composition
+main advantage:
+code reusablility
+cost cutting
+reduce redunduncy
+Inheritance[IS-A]
+one class properties inherited into another class
+we achieve this using extends keyword
+Car is a vehicle
+Association - [HAS-A]
+class Student{
+String name;
+int roll_no;
+}
+Student has a name
+Student has a roll_no
+package oop;
+class Engine {
+	public void eng() {
+		System.out.println("This is engine");
+	}
+}
+class Car {
+	public static void main(String[] args) {
+		Engine e = new Engine();
+		e.eng();
+	}
+}
+//loosely coupled , association  has-a relationship
+//assoication - aggregation and composition
+//aggregation is weak bonding and composition is strong bonding
+//car has a music player - aggregation
+//car has engine - composition
+college - professor weak bonding because college and professor can exist individually ,aggregation
+college - branches[cS,IT,EE] strong bonding composition
+_______________________________________________________________________________________________________________________________________________________________________
+Polymorphism:
+Poly means many , forms
+water - solid, liquid, gas
+shapes - circle , rectangle
+sounds - bark , roaring
+polymorphism 2 types
+static - complie time polymorphism  - method overloading   handled by complier
+dynamic - run time polymorphism  - method overriding   handled by JVM
+Method overloading:
+same class , same name , different arguments
+Method overriding:
+different class,same name same arguments and inheritance [is-a relationship]
+	 */
+
+}

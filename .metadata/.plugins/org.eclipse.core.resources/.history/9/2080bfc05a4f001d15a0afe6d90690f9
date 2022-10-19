@@ -1,0 +1,20 @@
+package qOOPS2;
+
+public class EB extends EA{
+
+	int maxSpeed = 100;
+	public void printSpeed() {
+		System.out.println(super.maxSpeed);
+		
+	}
+	public void print() {
+		super.print();
+		System.out.println("hello");
+	}
+	
+	public static void main(String[] args) {
+		EB obj = new EB();
+		obj.print();
+		obj.maxSpeed
+	}
+}

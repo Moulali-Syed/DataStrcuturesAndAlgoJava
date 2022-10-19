@@ -1,0 +1,10 @@
+package qOOPS2;
+
+public class BVehicleUse {
+
+	public static void main(String[] args) {
+		BVehicle v = new BVehicle();
+		v.color = "red";
+		v.print();
+	}
+}

@@ -1,0 +1,8 @@
+package qOOPS2;
+
+public class EB extends EA{
+
+	public void print() {
+		System.out.println("hello");
+	}
+}

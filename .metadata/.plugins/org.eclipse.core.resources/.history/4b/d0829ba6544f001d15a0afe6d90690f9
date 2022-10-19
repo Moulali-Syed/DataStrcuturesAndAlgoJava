@@ -1,0 +1,7 @@
+package qOOPS2;
+
+public class BVehicle {
+
+	String color;
+	int maxSpeed
+}

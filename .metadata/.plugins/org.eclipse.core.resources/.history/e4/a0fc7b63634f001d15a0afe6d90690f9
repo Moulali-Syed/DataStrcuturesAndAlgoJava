@@ -1,0 +1,8 @@
+package qOOPS2;
+
+public class GPolymorphism {
+	/*
+	 We have runtime polymorphism and compile time polymorphism
+	 */
+
+}

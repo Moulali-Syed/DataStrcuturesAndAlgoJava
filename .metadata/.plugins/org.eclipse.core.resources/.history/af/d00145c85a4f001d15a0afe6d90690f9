@@ -1,0 +1,32 @@
+package qOOPS2;
+
+public class ESuperKeyword {
+
+	/*
+	 package qOOPS2;
+
+public class EA {
+
+	public void print() {
+		System.out.println("Hi !!!!");
+	}
+}
+
+
+package qOOPS2;
+
+public class EB extends EA{
+
+	public void print() {
+		super.print(); //********************super***********
+		System.out.println("hello");
+	}
+	
+	public static void main(String[] args) {
+		EB obj = new EB();
+		obj.print();
+	}
+}
+
+	 */
+}

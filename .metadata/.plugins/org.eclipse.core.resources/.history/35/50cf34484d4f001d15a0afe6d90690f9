@@ -1,0 +1,7 @@
+package qOOPS1;
+
+public class LDynamicArrayClass {
+
+	
+	//With array we cannot increase uts size dynamically
+}

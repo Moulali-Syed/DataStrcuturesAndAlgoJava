@@ -1,0 +1,8 @@
+package qOOPS2;
+
+public class BInheritance {
+
+	//create a class Vehicle
+	//create a class Car
+	//create class Bicycle
+}

@@ -1,0 +1,9 @@
+package qOOPS2;
+
+public class BCar extends BVehicle{
+
+	private int maxSpeed;
+	int numDoors;
+	
+	
+}

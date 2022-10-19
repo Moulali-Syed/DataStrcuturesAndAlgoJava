@@ -1,0 +1,15 @@
+package qOOPS1;
+
+public class LDynamicArrayClass {
+
+	
+	//With array we cannot increase its size dynamically
+	
+	//Dynamic array will increase its size
+	
+	/*
+	 Dynamic array will internally maintains array
+	 if array is full , then dynamic array will double its capacity
+	 
+	 */
+}

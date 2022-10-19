@@ -42,6 +42,9 @@ public class KFractionExample {
 	}
 	
 	public void setDenominator(int denominator) {
+		if(denominator==0) {
+			denominator =1;
+		}
 		this.denominator = denominator;
 	}
 
@@ -49,7 +52,7 @@ public class KFractionExample {
 		System.out.println(this.numerator+"/"+ this.denominator);
 	}
 	
-	public static void add(KFractionExample fr1,KFractionExample fr2) {
+	public static KFractionExample add(KFractionExample fr1,KFractionExample fr2) {
 		int nume1 = fr1.getNumerator();
 		int nume2 = fr2.getNumerator();
 		int deno1 = fr1.getDenominator();
@@ -58,5 +61,14 @@ public class KFractionExample {
 		int resNume = ((deno2*nume1)+(deno1*nume2));
 		int resDeno = (deno1*deno2);
 		System.out.println(resNume+"/"+resDeno);
+		
+		KFractionExample f3 = new KFractionExample(resNume,resDeno);
+		return f3;
+	}
+	
+	public void add(KFractionExample f2) {
+		this.numerator = this.numerator*f2.denominator + this.denominator*f2.numerator;
+		this.denominator = this.denominator*f2.denominator;
+		simplify();
 	}
 }

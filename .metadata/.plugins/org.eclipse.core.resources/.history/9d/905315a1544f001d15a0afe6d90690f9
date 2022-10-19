@@ -1,0 +1,6 @@
+package qOOPS2;
+
+public class BCar {
+
+	int numDoors;
+}

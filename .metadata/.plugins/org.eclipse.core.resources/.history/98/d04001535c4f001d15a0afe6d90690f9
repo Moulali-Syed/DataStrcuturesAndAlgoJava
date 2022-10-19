@@ -1,0 +1,34 @@
+package qOOPS2;
+
+
+class FA1{
+	int maxSpeed;
+	FA1(int maxSpeed){
+		this.maxSpeed = maxSpeed;
+		System.out.println("FA Constructor");
+	}
+}
+
+class FB1 extends FA1{
+	
+	FB1(){
+		System.out.println("FB Constructor");
+	}
+	
+}
+public class FInheritanceAndConstructor2 extends FB1 {
+
+	FInheritanceAndConstructor2(){
+		System.out.println("FInheritanceAndConstructor constructor");
+	}
+	
+	public static void main(String[] args) {
+		FInheritanceAndConstructor2 obj = new FInheritanceAndConstructor2();
+		
+	}
+}
+/*
+FA Constructor
+FB Constructor
+FInheritanceAndConstructor constructor
+*/
