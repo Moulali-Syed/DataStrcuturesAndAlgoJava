@@ -1,0 +1,6 @@
+package qOOPS3;
+
+public abstract class AVehicle {
+
+	public abstract boolean isMotorized();
+}

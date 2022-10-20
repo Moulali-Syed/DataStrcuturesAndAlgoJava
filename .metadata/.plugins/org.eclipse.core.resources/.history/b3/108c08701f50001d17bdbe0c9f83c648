@@ -1,0 +1,7 @@
+package qOOPS3;
+
+public abstract class AVehicle {
+
+	public abstract boolean isMotorized();
+}
+//abstract class is an incomplete class , we cannot create object for it

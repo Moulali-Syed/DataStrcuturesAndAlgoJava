@@ -1,0 +1,6 @@
+package qOOPS3;
+
+public interface DemoInterface {
+
+	void sayHi();
+}

@@ -1,0 +1,5 @@
+package qOOPS3;
+//its functions are abstrat
+public class BInterface {
+
+}
