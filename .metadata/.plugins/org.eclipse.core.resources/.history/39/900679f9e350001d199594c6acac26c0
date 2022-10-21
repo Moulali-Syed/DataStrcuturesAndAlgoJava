@@ -1,0 +1,13 @@
+package qOOPS3;
+
+public class EPairUse2 {
+
+	public static void main(String[] args) {
+		EPair2<String> p = new EPair2<String>("Capital","Delhi");
+		p.setFirst("Happy");
+		p.setSecond("City");
+		System.out.println(p.getFirst());
+		System.out.println(p.getSecond());
+		
+	}
+}

@@ -1,0 +1,52 @@
+package qOOPS3;
+/*
+ I want to create a class EPair,it has 2 private instance variables 
+ private int first and private int second, then i have a constructor and getter
+ setter
+ 
+ package qOOPS3;
+
+public class EPair {
+
+	private int first;
+	private int second;
+	
+	public EPair(int first,int second) {
+		this.first = first;
+		this.second = second;
+	}
+	
+	public int getFirst() {
+		return first;
+	}
+	
+	public int getSecond() {
+		return second;
+	}
+	
+	public void setFirst(int first) {
+		this.first = first;
+	}
+	
+	public void setSecond(int second) {
+		this.second  = second;
+	}
+}
+
+
+package qOOPS3;
+
+public class EPairUse {
+
+	public static void main(String[] args) {
+		EPair p = new EPair(1,2);
+		p.setFirst(10);
+		System.out.println(p.getFirst()); 
+		System.out.println(p.getSecond());
+	}
+}
+
+ */
+public class EGenerics {
+
+}

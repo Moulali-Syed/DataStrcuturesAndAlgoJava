@@ -1,0 +1,14 @@
+package qOOPS3;
+
+public class Flights {
+
+	int maxSpeed;
+	
+	public Flights(int maxSpeed) {
+		this.maxSpeed = maxSpeed;
+	}
+	
+	public void print() {
+		System.out.println(maxSpeed+" maxSpeed");
+	}
+}

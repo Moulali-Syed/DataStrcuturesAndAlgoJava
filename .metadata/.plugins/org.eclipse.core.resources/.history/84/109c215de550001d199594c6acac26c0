@@ -1,0 +1,12 @@
+package qOOPS3;
+
+public class EPairUse3 {
+
+	public static void main(String[] args) {
+		EPair3<Integer,String> p = new EPair3<Integer,String>(1,"Delhi");
+		
+		EPair3<String,String> p1 = new EPair3<String,String>("Happy","City");
+		
+		
+	}
+}

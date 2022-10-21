@@ -1,0 +1,9 @@
+package qOOPS3;
+
+public class EPairUse2 {
+
+	public static void main(String[] args) {
+		EPair2<String> p = new EPair2<String>("Capital","Delhi");
+		
+	}
+}

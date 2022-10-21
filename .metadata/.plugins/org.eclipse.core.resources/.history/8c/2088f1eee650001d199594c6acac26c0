@@ -1,0 +1,9 @@
+package qOOPS3;
+/*
+We can make our methods as generic as well
+
+say i want to print an array of integers
+ */
+public class FGenericMethods {
+
+}

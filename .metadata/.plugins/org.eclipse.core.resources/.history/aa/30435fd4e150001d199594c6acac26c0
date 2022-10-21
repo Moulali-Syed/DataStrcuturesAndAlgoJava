@@ -1,0 +1,12 @@
+package qOOPS3;
+
+public class EPair {
+
+	private int first;
+	private int second;
+	
+	public EPair(int first,int second) {
+		this.first = first;
+		this.second = second;
+	}
+}

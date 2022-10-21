@@ -1,0 +1,10 @@
+package qOOPS3;
+
+public class Flights {
+
+	int maxSpeed;
+	
+	public Flights(int maxSpeed) {
+		this.maxSpeed = maxSpeed;
+	}
+}
