@@ -1,7 +1,0 @@
-package mtimeComplexityAnalysis;
-/*
-Time required for an algorithm for an input n
- */
-public class AComplexityAnalysis {
-
-}

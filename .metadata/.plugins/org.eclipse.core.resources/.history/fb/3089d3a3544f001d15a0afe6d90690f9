@@ -1,6 +1,0 @@
-package qOOPS2;
-
-public class BCar extends Vehicle{
-
-	int numDoors;
-}

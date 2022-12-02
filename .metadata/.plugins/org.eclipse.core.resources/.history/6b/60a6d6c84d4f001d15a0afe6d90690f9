@@ -1,8 +1,0 @@
-package qOOPS1;
-
-public class LDynamicArrayUse {
-
-	public static void main(String[] args) {
-		LDynamicArrayClass d = new LDynamicArrayClass()[]
-	}
-}

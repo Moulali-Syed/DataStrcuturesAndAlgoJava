@@ -1,9 +1,0 @@
-package qOOPS3;
-/*
- I want to create a class EPair,it has 2 private instance variables 
- private int first and private int second, then i have a constructor and getter
- setter
- */
-public class EGenerics {
-
-}
