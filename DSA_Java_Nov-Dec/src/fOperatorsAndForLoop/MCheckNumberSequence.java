@@ -79,6 +79,7 @@ public class MCheckNumberSequence {
 		int maxVal = Integer.MAX_VALUE;
 		for(int i=1;i<=numofDigits;i++) {
 			int num = s.nextInt();
+			
 			if(num>minVal) {
 				minVal = num;
 			}else if(num<minVal) {
