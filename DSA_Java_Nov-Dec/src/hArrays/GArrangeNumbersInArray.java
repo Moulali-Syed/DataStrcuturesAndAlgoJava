@@ -43,14 +43,15 @@ public class GArrangeNumbersInArray {
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
 		int[] arr = new int[n];
-		int index = 0;
+		int p = 0, q =1 ;
 		for(int i=0;i<n;i++) {
 			if(i%2==0) {
-				arr[index] = i+1;
-				index++;
-			}else {
-				arr[n-index] = i+1;
+				arr[p] = i+1;
+				p++;
 				
+			}else {
+				arr[n-q] = i+1;
+				q++;
 			}
 		}
 		return arr;
