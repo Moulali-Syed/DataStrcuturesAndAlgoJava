@@ -69,7 +69,7 @@ public class LArrayIntersection {
 				if(arr1[i] == arr2[j]) {
 					System.out.print(arr1[i]+" ");
 //					 arr2[j] = Integer.MIN_VALUE;
-					arr2[i] = Integer.MIN_VALUE;
+					arr2[j] = Integer.MIN_VALUE;
 				}
 			}
 		}
@@ -77,7 +77,8 @@ public class LArrayIntersection {
 	public static void main(String[] args) {
 		int[] arr1 = {2,3,4,5,5,7,2};
 		int[] arr2 = {2 ,6, 8, 5, 4, 3};
-		
+//		int[] arr1 = {10,10};
+//		int[] arr2 = {10};
 		findIntersection(arr1,arr2);
 	}
 }
